@@ -31,26 +31,28 @@ MySQL was used to perform:
 - Stored Procedure
 - Risk-focused analysis
 ## Power BI Dashboard
-The dashboard contains three main pages:
-### 1. Executive Overview
+### Executive Overview
 Provides a high-level view of loans, transactions, overdue exposure, and key financial KPIs.
-### 2. Customer & Transaction Analysis
+### Customer & Transaction Analysis
 Analyzes customer segments, transaction types, transaction amounts, branches, and account types.
-### 3. Risk Analysis
+### Risk Analysis
 Focuses on overdue loans, overdue exposure, customer types, account types, loan status, and loan amount patterns.
 ## Key Insights
 - The overdue loan rate is approximately 10%.
 - Overdue loans represent a significant portion of loan exposure.
 - Large Enterprise customers have the highest number of overdue loans.
 - Deposit, Transfer, and Withdrawal transactions represent the largest transaction activity.
-- Transaction amount variability was reviewed using average and standard deviation.
+- Average transaction amount is approximately 2,498.55.
+- Transaction amount variability was reviewed using standard deviation.
 - High account balance alone was not treated as a risk indicator.
-## Workflow
+## Project Workflow
 Power Query → MySQL → Power BI
+**Power Query:** Data Cleaning  
+**MySQL:** SQL Analysis  
+**Power BI:** Data Modeling, DAX & Dashboard
 ## Project Deliverables
-- Data Cleaning
-- ERD / Data Model
-- SQL Analysis
 - Power BI Dashboard
-- SQL Documentation
+- SQL Analysis Report
 - Project Presentation
+- ERD / Data Model
+- Data Cleaning
